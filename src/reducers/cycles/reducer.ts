@@ -7,7 +7,7 @@ export interface Cycle {
   task: string
   minutesAmount: number
   startDate: Date
-  interruptDate?: Date
+  interruptedDate?: Date
   finishedDate?: Date
 }
 
@@ -37,7 +37,7 @@ export function cyclesReducer(state: CyclesState, action: any) {
 
       return produce(state, (draft) => {
         draft.activeCycleId = null
-        draft.cycles[currentCycleIndex].interruptDate = new Date()
+        draft.cycles[currentCycleIndex].interruptedDate = new Date()
       })
     }
 
