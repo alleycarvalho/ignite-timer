@@ -20,6 +20,30 @@
 
 - Uma aplicação baseada na técnica Pomodoro, um método de gerenciamento de tempo.
 
+---
+
+## :computer: Testar a aplicação
+
+```shell
+# Clona o projeto:
+git clone https://github.com/alleycarvalho/ignite-timer.git
+
+# Acessa o diretório do projeto:
+cd ignite-timer
+
+# Instala dependências:
+yarn install
+
+# Executa a aplicação:
+yarn dev
+
+```
+
+### Acessar o endereço gerado no navegador:
+http://localhost:5173/
+
+---
+
 ## :mortar_board: Ignite - Projeto 02
 
 ### Ferramentas, tecnologias e conceitos utilizados:
@@ -40,6 +64,8 @@
 - Iniciar contagem regressiva no tempo do projeto;
 - Interromper projeto;
 - Visualizar histórico de projetos;
+
+---
 
 ## :computer: Resultado do projeto
 
